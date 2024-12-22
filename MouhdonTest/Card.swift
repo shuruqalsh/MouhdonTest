@@ -13,10 +13,13 @@ class Card: Identifiable {
     var id: UUID
     var emoji: String
     var cardDescription: String
+    var audioFilePath: String? // Path to the audio file
     
-    init(emoji: String, cardDescription: String) {
-        self.id = UUID() // سيتم تعيين UUID تلقائيًا
-        self.emoji = emoji
-        self.cardDescription = cardDescription
+    
+    init(emoji: String, cardDescription: String, audioFilePath: String? = nil) {
+            self.id = UUID() // Generate a unique identifier
+            self.emoji = emoji
+            self.cardDescription = cardDescription
+            self.audioFilePath = audioFilePath
     }
 }
