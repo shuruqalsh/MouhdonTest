@@ -6,3 +6,14 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct LibraryGirl6: View {
+    var body: some View {
+        Text("Hello, World!")
+    }
+}
+
+#Preview {
+    LibraryGirl6()
+}

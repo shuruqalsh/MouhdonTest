@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct LibraryGirl1View: View {
+struct LibraryGirl1: View {
     var body: some View {
         Text("Hello, World!")
     }
 }
 
 #Preview {
-    LibraryGirl1View()
+    LibraryGirl1()
 }

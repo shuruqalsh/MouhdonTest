@@ -4,5 +4,14 @@
 //
 //  Created by shuruq alshammari on 22/06/1446 AH.
 //
+import SwiftUI
 
-import Foundation
+struct LibraryGirl2: View {
+    var body: some View {
+        Text("Hello, World!")
+    }
+}
+
+#Preview {
+    LibraryGirl1()
+}
